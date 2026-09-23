@@ -8,6 +8,6 @@ brew install kova1max/tap/<formula>
 
 | Formula | Description |
 | --- | --- |
-| [`pullr`](https://github.com/kova1max/pullr) | Fast-forward pull every git repository under a directory |
+| [`pullr`](https://github.com/kova1max/pullr) | Safe, fast-forward pull every git repository under a directory |
 
 Formulae are bumped automatically by each project's release workflow.
