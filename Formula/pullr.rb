@@ -1,8 +1,8 @@
 class Pullr < Formula
   desc "Fast-forward pull every git repository under a directory"
   homepage "https://github.com/kova1max/pullr"
-  url "https://github.com/kova1max/pullr/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "aef7454e098540a59dac7a319087c5e3fc3084b895625f057efdb3499d7ec930"
+  url "https://github.com/kova1max/pullr/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "5920183a591bb39970824448baff1be99cac28e81314d87000a0fbe2942cc2ed"
   license "MIT"
 
   def install
