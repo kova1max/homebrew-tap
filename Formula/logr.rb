@@ -1,8 +1,8 @@
 class Logr < Formula
   desc "Search the commit history of every git repository under a directory"
   homepage "https://github.com/kova1max/logr"
-  url "https://github.com/kova1max/logr/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "31c5c700762222306722a1dda187d114929b53f30cc5519c637eb236973ae5d5"
+  url "https://github.com/kova1max/logr/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "d1164e40ea6ac1a50b27f06921911c15de0cc8880037efbd50b29bed6dd6ba30"
   license "MIT"
 
   def install
