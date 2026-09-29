@@ -14,8 +14,8 @@ class Logr < Formula
 
     system "git", "init", "--quiet", "repo"
     system "git", "-C", "repo", "-c", "user.name=Test", "-c", "user.email=test@example.com",
-           "commit", "--quiet", "--allow-empty", "-m", "Fix the login redirect"
+           "commit", "--quiet", "--allow-empty", "-m", "Fix the login redirect (#7)"
     output = shell_output("#{bin}/logr login #{testpath}")
-    assert_match(/^repo\t\h+\t[\d-]+\tTest\t\S+\tFix the login redirect$/, output)
+    assert_match(/^repo\t\h+\t[\d-]+\tTest\t\S+\t#7\tFix the login redirect \(#7\)$/, output)
   end
 end
