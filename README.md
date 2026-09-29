@@ -8,6 +8,7 @@ brew install kova1max/tap/<formula>
 
 | Formula | Description |
 | --- | --- |
+| [`logr`](https://github.com/kova1max/logr) | Search the commit history of every git repository under a directory |
 | [`pullr`](https://github.com/kova1max/pullr) | Safe, fast-forward pull every git repository under a directory |
 
 Formulae are bumped automatically by each project's release workflow.
